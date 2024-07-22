@@ -67,7 +67,8 @@ const App = () => {
 
       setStatus("Sending Emails...");
       const response = await axios.post(
-        "https://mail-sender-7lhy.onrender.com/send-emails",
+        // "https://mail-sender-7lhy.onrender.com/send-emails",
+        "https://mail-sender-aman.onrender.com",
         formData,
         {
           headers: {
